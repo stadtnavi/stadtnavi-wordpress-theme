@@ -1,0 +1,76 @@
+/*!
+Theme Name:   Stadtnavi
+Theme URI:    https://buchung.stadtnavi.eu
+Author:       binary butterfly GmbH
+Author URI:   https://binary-butterfly.de
+Description:  Open Bike Box Theme is based on Storefront
+Template:     storefront
+Version:      3.7.0-1.0.0
+Tested up to: 5.7.2
+Requires PHP: 7.3.0
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  storefront
+Tags:         e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
+*/
+
+/*
+green: #40b93c
+blue: #305f97
+dark: #444444
+ */
+
+#masthead {
+    background: linear-gradient(135deg, #86bc24 0%, #D8FA72 100%);
+    color: #fff;
+}
+
+#masthead .storefront-primary-navigation, #masthead .site-header-cart .widget_shopping_cart, #colophon  {
+    background-color: #006f31;
+}
+
+#page {
+    background-color: #FFF;
+}
+
+.site-info {
+    text-align: center;
+}
+
+.site-description {
+    margin-left: 98px;
+}
+
+#page .site-footer, #page .site-footer a, #page .site-footer a:hover, #page .site-footer a:active, #page .site-footer a:visited, #page .site-footer a:focus {
+    color: #FFF;
+}
+
+#masthead button.menu-toggle {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+#masthead > .col-full {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 400px;
+    padding: 0 2.617924em;
+}
+
+@media only screen and (max-width: 769px) {
+    #masthead {
+        padding-bottom: 0;
+    }
+
+    #masthead .storefront-primary-navigation {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #masthead > .col-full {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 450px;
+    }
+}
+
