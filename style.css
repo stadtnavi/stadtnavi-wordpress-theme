@@ -5,7 +5,7 @@ Author:       binary butterfly GmbH
 Author URI:   https://binary-butterfly.de
 Description:  Open Bike Box Theme is based on Storefront
 Template:     storefront
-Version:      3.7.0-1.0.0
+Version:      3.7.0-1.0.1
 Tested up to: 5.7.2
 Requires PHP: 7.3.0
 License:      GNU General Public License v2 or later
@@ -25,8 +25,17 @@ dark: #444444
     color: #fff;
 }
 
-#masthead .storefront-primary-navigation, #masthead .site-header-cart .widget_shopping_cart, #colophon  {
+#masthead .storefront-primary-navigation, #masthead .site-header-cart .widget_shopping_cart, #colophon, #site-header-cart .buttons, #site-header-cart .total {
     background-color: #006f31;
+}
+
+#site-header-cart .buttons, #site-header-cart .total {
+    border-top: 1px solid #86bc24;
+    display: block;
+}
+
+#site-header-cart .buttons .button {
+    margin-right: 0;
 }
 
 #page {
